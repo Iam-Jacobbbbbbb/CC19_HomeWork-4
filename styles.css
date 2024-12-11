@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kanit", sans-serif;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+h1{
+    background-color: white;
+    padding: 20px;
+}
+
+.backgroud{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(48, 47, 47, 0.1);
+    padding: 10px;
+    
+  }
+  
+  .input-section {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    margin: 20px;
+    padding-bottom: 15px;
+  }
+  
+  .profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .input-box {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 20px 10px;
+    background: #dddedf;
+    border-radius: 20px;
+  }
+  
+  .action-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+  }
+  
+  .button .icon {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .button span {
+    font-size: 14px;
+    color: #555;
+  }
+  
